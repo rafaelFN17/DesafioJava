@@ -26,29 +26,14 @@ public class App {
             if (menu == 3){
                 System.out.println("Digite o caminho inicial:");
                 Path cmd = new Path(in.nextLine());
-                System.out.println("Digite o caminho inicial:");
+                System.out.println("Digite o comando:");
                 System.out.println(cmd.changeDirectory(in.nextLine()));
             }
 
             if (menu != 1 && menu != 2 && menu != 3 && menu != 0){
                 System.out.println("Numero invalido");
             }
-            
-            /*System.out.println("Digite um numero inteiro:");
-            Luxfacta lux = new Luxfacta(Integer.parseInt(in.nextLine()));
-            System.out.println(lux.Say());
-
-            System.out.println("Digite uma palavra:");
-            Palindromes palindroma = new Palindromes(in.nextLine());
-            System.out.println(palindroma.isPalindrome());
-
-            System.out.println("Digite o caminho inicial:");
-            Path cmd = new Path(in.nextLine());
-            System.out.println("Digite o caminho inicial:");
-            System.out.println(cmd.changeDirectory(in.nextLine()));*/
-
         }
 
     }
 }
-
